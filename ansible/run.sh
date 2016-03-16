@@ -1,0 +1,7 @@
+#!/bin/bash
+export ANSIBLE_HOST_KEY_CHECKING=false
+
+#ANSIBLE_OPTIONS=-vvvv
+ANSIBLE_OPTIONS=-v
+
+source "$PROJECT_FOLDER/$VAGRANT_ANSIBLE_REMOTE/ansible/run.sh"

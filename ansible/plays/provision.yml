@@ -1,0 +1,18 @@
+- hosts: network-interfaces
+  sudo: yes
+
+  roles:
+  - role: dresden-weekly.network-interfaces
+    network_manage_devices: yes
+
+    network_interfaces:
+    - device: eth0
+      description: just a description for humans to understand
+      auto: true
+      family: inet
+
+    - device: eth1
+      description: simple dhcp client interface
+      auto: true
+      family: inet
+      method: dhcp

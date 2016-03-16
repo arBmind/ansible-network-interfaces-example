@@ -1,0 +1,9 @@
+---
+# stable version from Ansible Galaxy
+# - src: "dresden-weekly.ansible-network-interfaces"
+#   version: "1.0"
+
+# development version from Github
+- src: "https://github.com/dresden-weekly/ansible-network-interfaces"
+  version: develop
+  name: dresden-weekly.network-interfaces

@@ -1,0 +1,8 @@
+[vagrant]
+network-interfaces-vm
+
+[vagrant:vars]
+ansible_ssh_user=vagrant
+
+[network-interfaces:children]
+vagrant

@@ -1,0 +1,8 @@
+[vagrant]
+localhost
+
+[vagrant:vars]
+ansible_connection=local
+
+[network-interfaces:children]
+vagrant

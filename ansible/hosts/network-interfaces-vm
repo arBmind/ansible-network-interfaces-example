@@ -1,0 +1,5 @@
+[vagrant]
+network-interfaces-vm
+
+[network-interfaces:children]
+vagrant
