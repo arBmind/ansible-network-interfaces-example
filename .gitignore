@@ -1,3 +1,5 @@
 .vagrant
 ansible/.roles/
 ansible/.remember
+.vagrant-file.rb
+ansible/roles/*
